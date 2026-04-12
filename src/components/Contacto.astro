@@ -46,7 +46,7 @@
 <style>
 
 .contacto {
-  padding: 96px 24px;
+  padding: 110px 24px;
   background: linear-gradient(
     135deg,
     #2563eb,
@@ -63,45 +63,62 @@
 .contacto-box {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 40px;
+  gap: 56px;
   align-items: center;
 }
 
 .contacto-texto h2 {
   margin: 0 0 16px;
-  font-size: 40px;
+  font-size: 52px;
+  line-height: 1.1;
 }
 
 .contacto-texto p {
   font-size: 18px;
-  line-height: 1.7;
-  opacity: 0.9;
+  line-height: 1.6;
+  opacity: 0.95;
+  max-width: 520px;
 }
 
 .contacto-acciones {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
 }
 
 .btn-primario {
   background: white;
-  color: #2563eb;
-  padding: 16px 24px;
+  color: #1e293b;
+  padding: 18px 36px;
   border-radius: 12px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 16px;
   text-align: center;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  transition: all 0.2s ease;
+}
+
+.btn-primario:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
 }
 
 .btn-secundario {
   border: 2px solid white;
   color: white;
-  padding: 16px 24px;
+  padding: 18px 36px;
   border-radius: 12px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 16px;
   text-align: center;
+  transition: all 0.2s ease;
+}
+
+.btn-secundario:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
 }
 
 .eyebrow {
@@ -115,8 +132,17 @@
 
 @media (max-width: 900px) {
 
+  .contacto {
+    padding: 88px 24px;
+  }
+
   .contacto-box {
     grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contacto-texto h2 {
+    font-size: 40px;
   }
 
 }
