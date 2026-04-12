@@ -1,0 +1,47 @@
+/* RESET BÁSICO */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+/* CONTENEDOR GLOBAL */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* SEPARACIÓN ENTRE SECCIONES */
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* TÍTULOS */
+
+h2 {
+  font-size: 44px;
+  line-height: 1.1;
+}
+
+/* PÁRRAFOS */
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* TRANSICIÓN SUAVE */
+
+section {
+  scroll-margin-top: 100px;
+}
