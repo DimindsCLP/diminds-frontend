@@ -1,0 +1,124 @@
+---
+---
+
+<section id="contacto" class="contacto">
+
+  <div class="container">
+
+    <div class="contacto-box">
+
+      <div class="contacto-texto">
+
+        <span class="eyebrow">
+          Contacto
+        </span>
+
+        <h2>
+          Conversemos sobre su organización.
+        </h2>
+
+        <p>
+          Si su organización enfrenta decisiones complejas,
+          podemos ayudarle a estructurar escenarios claros
+          y reducir la incertidumbre en el proceso.
+        </p>
+
+      </div>
+
+      <div class="contacto-acciones">
+
+        <a href="mailto:contacto@diminds.cl" class="btn-primario">
+          Contactar por correo
+        </a>
+
+        <a href="#metodologia" class="btn-secundario">
+          Conocer nuestra metodología
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+
+.contacto {
+  padding: 96px 24px;
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contacto-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.contacto-texto h2 {
+  margin: 0 0 16px;
+  font-size: 40px;
+}
+
+.contacto-texto p {
+  font-size: 18px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+.contacto-acciones {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btn-primario {
+  background: white;
+  color: #2563eb;
+  padding: 16px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-secundario {
+  border: 2px solid white;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+
+  .contacto-box {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+</style>
