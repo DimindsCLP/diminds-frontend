@@ -1,1 +1,79 @@
+// src/components/Credibilidad.astro
 
+<section class="credibility" aria-label="Clientes y organizaciones">
+  <div class="credibility__inner">
+    <p class="credibility__label">Han confiado en nosotros</p>
+
+    <div class="credibility__logos">
+      <div class="credibility__logo-slot">
+        <span class="credibility__placeholder">BID</span>
+        <!--
+        ACTIVAR cuando llegue logo-bid.svg:
+        Eliminar el <span> de arriba y descomentar:
+        <img
+          src="/images/logos/logo-bid.svg"
+          alt="Banco Interamericano de Desarrollo"
+          height="32"
+          loading="lazy"
+        />
+        -->
+      </div>
+
+      <div class="credibility__logo-slot">
+        <span class="credibility__placeholder">CORFO</span>
+        <!--
+        ACTIVAR cuando llegue logo-corfo.svg:
+        Eliminar el <span> de arriba y descomentar:
+        <img
+          src="/images/logos/logo-corfo.svg"
+          alt="CORFO"
+          height="32"
+          loading="lazy"
+        />
+        -->
+      </div>
+
+      <div class="credibility__logo-slot">
+        <span class="credibility__placeholder">MASISA</span>
+        <!--
+        ACTIVAR cuando llegue logo-masisa.svg:
+        Eliminar el <span> de arriba y descomentar:
+        <img
+          src="/images/logos/logo-masisa.svg"
+          alt="Masisa"
+          height="32"
+          loading="lazy"
+        />
+        -->
+      </div>
+
+      <div class="credibility__logo-slot">
+        <span class="credibility__placeholder">CGE</span>
+        <!--
+        ACTIVAR cuando llegue logo-cge.svg:
+        Eliminar el <span> de arriba y descomentar:
+        <img
+          src="/images/logos/logo-cge.svg"
+          alt="Compañía General de Electricidad"
+          height="32"
+          loading="lazy"
+        />
+        -->
+      </div>
+
+      <div class="credibility__logo-slot">
+        <span class="credibility__placeholder">SQM</span>
+        <!--
+        ACTIVAR cuando llegue logo-sqm.svg:
+        Eliminar el <span> de arriba y descomentar:
+        <img
+          src="/images/logos/logo-sqm.svg"
+          alt="Sociedad Química y Minera de Chile"
+          height="32"
+          loading="lazy"
+        />
+        -->
+      </div>
+    </div>
+  </div>
+</section>
