@@ -1,77 +1,46 @@
-
----
-
----
-
-<header class="header">
-
-  <div class="header-container">
-
-    <div class="logo">
-
-      <img 
-        src="/logo-diminds.png" 
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="site-header__brand" aria-label="Diminds Consulting">
+      <img
+        src="/logo-diminds.png"
         alt="Diminds Consulting"
+        class="site-header__logo"
       />
+    </a>
 
-    </div>
-
-    <nav class="menu">
-
-      <a href="#metodologia">Metodología</a>
-
-      <a href="#problemas">Problemas</a>
-
-      <a href="#audiencias">Audiencias</a>
-
-      <a href="#contacto" class="btn-contacto">
-        Contacto
-      </a>
-
+    <nav class="site-header__nav" aria-label="Principal">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#casos">Casos</a>
+      <a href="#contacto">Insights</a>
+      <a href="#contacto">Contacto</a>
     </nav>
 
+    <a href="#contacto" class="site-header__cta">Conversemos →</a>
+
+    <button
+      class="site-header__toggle"
+      type="button"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.75"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <line x1="4" x2="20" y1="12" y2="12"></line>
+        <line x1="4" x2="20" y1="6" y2="6"></line>
+        <line x1="4" x2="20" y1="18" y2="18"></line>
+      </svg>
+    </button>
   </div>
-
 </header>
-
-<style>
-
-.header {
-  background: white;
-  border-bottom: 1px solid #eee;
-  padding: 16px 24px;
-}
-
-.header-container {
-  max-width: 1200px;
-  margin: 0 auto;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo img {
-  height: 40px;
-}
-
-.menu {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #111;
-  font-weight: 500;
-}
-
-.btn-contacto {
-  background: #111;
-  color: white;
-  padding: 10px 16px;
-  border-radius: 6px;
-}
-
-</style>
