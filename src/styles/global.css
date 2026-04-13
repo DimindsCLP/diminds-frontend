@@ -1366,7 +1366,7 @@ RESPONSIVE
     font-size: 52px;
   }
 }
-
+```css
 @media (max-width: 768px) {
   .hero {
     min-height: auto;
@@ -1396,8 +1396,9 @@ RESPONSIVE
     right: -6px;
     bottom: 34px;
   }
+}
 
-  /* =======================================================
+/* =======================================================
 R6 — PROBLEMAS + METODOLOGÍA
 ======================================================= */
 
@@ -1660,5 +1661,4 @@ R6 — PROBLEMAS + METODOLOGÍA
   .methodology__cta {
     margin-top: 24px;
   }
-}
 }
