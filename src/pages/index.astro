@@ -1,4 +1,3 @@
-```astro
 ---
 import '../styles/global.css';
 
@@ -15,14 +14,36 @@ import Audiencias from '../components/Audiencias.astro';
 import Contacto from '../components/Contacto.astro';
 ---
 
-<Header />
-<Hero />
-<Credibilidad />
-<Problemas />
-<Metodologia />
-<Servicios />
-<Casos />
-<Equipo />
-<Audiencias />
-<Contacto />
-<Footer />
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Diminds Consulting</title>
+    <meta
+      name="description"
+      content="Consultoría ejecutiva en transformación estratégica, organizacional y financiera institucional."
+    />
+  </head>
+
+  <body>
+    <Header />
+    <Hero />
+    <Credibilidad />
+    <Problemas />
+    <Metodologia />
+    <Servicios />
+    <Casos />
+    <Equipo />
+    <Audiencias />
+    <Contacto />
+    <Footer />
+  </body>
+</html>
