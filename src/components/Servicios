@@ -1,1 +1,41 @@
+// src/components/Servicios.astro
 
+<section class="services" id="servicios">
+  <div class="services__inner">
+    <div class="services__header">
+      <h2>Áreas de intervención estratégica.</h2>
+    </div>
+
+    <div class="services__grid">
+      <article class="service-card">
+        <h3>Transformación estratégica institucional</h3>
+        <p>
+          Alineamos estrategia, gobernanza y ejecución organizacional para
+          organizaciones que necesitan transformar su modelo sin detener su
+          operación.
+        </p>
+      </article>
+
+      <article class="service-card">
+        <h3>Fortalecimiento de liderazgo y equipos</h3>
+        <p>
+          Desarrollamos directivos y estructuras de equipo capaces de sostener
+          resultados en entornos de alta complejidad y cambio acelerado.
+        </p>
+      </article>
+
+      <article class="service-card">
+        <h3>Transformación financiera institucional</h3>
+        <p>
+          Acompañamos a cooperativas e IFNB en el diseño de estructuras
+          financieras, productos y modelos de gobernanza sostenibles bajo
+          regulación CMF.
+        </p>
+      </article>
+    </div>
+
+    <div class="services__cta">
+      <a href="#contacto">Ver servicios completos →</a>
+    </div>
+  </div>
+</section>
