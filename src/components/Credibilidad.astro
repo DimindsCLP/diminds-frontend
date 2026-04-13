@@ -1,3 +1,4 @@
+src/components/Credibilidad.astro
 
 <section class="credibility" aria-label="Clientes y organizaciones">
   <div class="credibility__inner">
@@ -6,73 +7,328 @@
     <div class="credibility__logos">
       <div class="credibility__logo-slot">
         <span class="credibility__placeholder">BID</span>
-        <!--
-        ACTIVAR cuando llegue logo-bid.svg:
-        Eliminar el <span> de arriba y descomentar:
-        <img
-          src="/images/logos/logo-bid.svg"
-          alt="Banco Interamericano de Desarrollo"
-          height="32"
-          loading="lazy"
-        />
-        -->
       </div>
 
       <div class="credibility__logo-slot">
         <span class="credibility__placeholder">CORFO</span>
-        <!--
-        ACTIVAR cuando llegue logo-corfo.svg:
-        Eliminar el <span> de arriba y descomentar:
-        <img
-          src="/images/logos/logo-corfo.svg"
-          alt="CORFO"
-          height="32"
-          loading="lazy"
-        />
-        -->
       </div>
 
       <div class="credibility__logo-slot">
         <span class="credibility__placeholder">MASISA</span>
-        <!--
-        ACTIVAR cuando llegue logo-masisa.svg:
-        Eliminar el <span> de arriba y descomentar:
-        <img
-          src="/images/logos/logo-masisa.svg"
-          alt="Masisa"
-          height="32"
-          loading="lazy"
-        />
-        -->
       </div>
 
       <div class="credibility__logo-slot">
         <span class="credibility__placeholder">CGE</span>
-        <!--
-        ACTIVAR cuando llegue logo-cge.svg:
-        Eliminar el <span> de arriba y descomentar:
-        <img
-          src="/images/logos/logo-cge.svg"
-          alt="Compañía General de Electricidad"
-          height="32"
-          loading="lazy"
-        />
-        -->
       </div>
 
       <div class="credibility__logo-slot">
         <span class="credibility__placeholder">SQM</span>
-        <!--
-        ACTIVAR cuando llegue logo-sqm.svg:
-        Eliminar el <span> de arriba y descomentar:
-        <img
-          src="/images/logos/logo-sqm.svg"
-          alt="Sociedad Química y Minera de Chile"
-          height="32"
-          loading="lazy"
-        />
-        -->
       </div>
+    </div>
+  </div>
+</section>
+
+
+src/components/Servicios.astro
+
+<section class="services" id="servicios">
+  <div class="services__inner">
+    <div class="services__header">
+      <h2>Áreas de intervención estratégica.</h2>
+    </div>
+
+    <div class="services__grid">
+      <article class="service-card">
+        <h3>Transformación estratégica institucional</h3>
+        <p>
+          Alineamos estrategia, gobernanza y ejecución organizacional para
+          organizaciones que necesitan transformar su modelo sin detener su
+          operación.
+        </p>
+      </article>
+
+      <article class="service-card">
+        <h3>Fortalecimiento de liderazgo y equipos</h3>
+        <p>
+          Desarrollamos directivos y estructuras de equipo capaces de sostener
+          resultados en entornos de alta complejidad y cambio acelerado.
+        </p>
+      </article>
+
+      <article class="service-card">
+        <h3>Transformación financiera institucional</h3>
+        <p>
+          Acompañamos a cooperativas e IFNB en el diseño de estructuras
+          financieras, productos y modelos de gobernanza sostenibles bajo
+          regulación CMF.
+        </p>
+      </article>
+    </div>
+
+    <div class="services__cta">
+      <a href="#contacto">Ver servicios completos</a>
+    </div>
+  </div>
+</section>
+
+
+src/components/Casos.astro
+
+<section class="cases" id="casos">
+  <div class="cases__inner">
+    <div class="cases__header">
+      <h2>Experiencia aplicada en contextos reales.</h2>
+    </div>
+
+    <div class="cases__grid">
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">7</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">Masisa</span>
+            <span class="case-card__industry">Manufactura · Latinoamérica</span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Estrategia corporativa sin alineación operativa en múltiples
+              mercados.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              Implementación de Balanced Scorecard en 7 países latinoamericanos.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso</a>
+        </div>
+      </article>
+
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">100%</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">CGE</span>
+            <span class="case-card__industry">Energía · Chile</span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Indicadores de calidad de servicio fuera del estándar regulatorio.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              100% de comunas dentro del estándar de la industria.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso</a>
+        </div>
+      </article>
+
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">3</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">SQM</span>
+            <span class="case-card__industry">Minería · Chile</span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Baja productividad y desempeño en gestión de proyectos.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              Sistema estructurado de seguimiento y evaluación de desempeño
+              implementado.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso</a>
+        </div>
+      </article>
+
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">2</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">BID / CORFO</span>
+            <span class="case-card__industry">
+              Sector financiero no bancario · Chile
+            </span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Cooperativas sin estructura para operar como instituciones
+              financieras formales.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              Bases técnicas e institucionales para transformación en IFNB.
+              Programa ejecutado en 3 cooperativas durante 2 años.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="cases__cta">
+      <a href="#contacto">Ver casos completos</a>
+    </div>
+  </div>
+</section>
+
+
+src/components/Equipo.astro
+
+<section class="team" id="nosotros">
+  <div class="team__inner">
+    <div class="team__header">
+      <h2>Experiencia ejecutiva directa.</h2>
+      <p class="team__intro">
+        El cliente trabaja con los socios en cada proyecto. No con equipos
+        delegados.
+      </p>
+    </div>
+
+    <div class="team__grid">
+      <article class="team-card">
+        <div class="team-card__photo">
+          <div class="team-card__placeholder" aria-label="Foto de Nelda Córdova">
+            <span>NC</span>
+          </div>
+        </div>
+
+        <div class="team-card__info">
+          <h3 class="team-card__name">Nelda Córdova</h3>
+          <p class="team-card__role">Directora y Socia Fundadora</p>
+          <p class="team-card__specialty">
+            Liderazgo estratégico y desarrollo organizacional.
+          </p>
+          <p class="team-card__bio">
+            Más de 20 años liderando equipos y procesos estratégicos. Ex-Gerente
+            General en empresas cooperativas. Consultora BID-CORFO.
+          </p>
+          <p class="team-card__credentials">
+            MBA · Magíster Habilidades Directivas · Master Finanzas · Auditora
+            CMF · Coach ICF
+          </p>
+
+          <a
+            href="https://linkedin.com/in/nelda-cordova-lazo-/"
+            class="team-card__linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn de Nelda Córdova"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            Ver perfil
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card">
+        <div class="team-card__photo">
+          <div class="team-card__placeholder" aria-label="Foto de Carlos Gutiérrez">
+            <span>CG</span>
+          </div>
+        </div>
+
+        <div class="team-card__info">
+          <h3 class="team-card__name">Carlos Gutiérrez</h3>
+          <p class="team-card__role">Socio Director</p>
+          <p class="team-card__specialty team-card__specialty--secondary">
+            Estrategia financiera y transformación institucional.
+          </p>
+          <p class="team-card__bio">
+            Más de 20 años en marketing, negocios y estrategia comercial en
+            banca, cooperativas y retail financiero. Consultor BID-CORFO.
+          </p>
+          <p class="team-card__credentials">Ingeniero Comercial · MBA</p>
+
+          <a
+            href="https://linkedin.com/in/carlos-gutierrez-gonzalez-1126407/"
+            class="team-card__linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn de Carlos Gutiérrez"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            Ver perfil
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <div class="team__partners">
+      <p>
+        Contamos además con una red de especialistas senior en liderazgo
+        ejecutivo, psicología organizacional, finanzas corporativas y gestión
+        de riesgos.
+      </p>
+      <a href="#contacto">Conocer el equipo completo</a>
     </div>
   </div>
 </section>
