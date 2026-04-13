@@ -1,1 +1,135 @@
+// src/components/Casos.astro
 
+<section class="cases" id="casos">
+  <div class="cases__inner">
+    <div class="cases__header">
+      <h2>Experiencia aplicada en contextos reales.</h2>
+    </div>
+
+    <div class="cases__grid">
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">7</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">Masisa</span>
+            <span class="case-card__industry">Manufactura · Latinoamérica</span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Estrategia corporativa sin alineación operativa en múltiples
+              mercados.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              Implementación de Balanced Scorecard en 7 países latinoamericanos.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso →</a>
+        </div>
+      </article>
+
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">100%</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">CGE</span>
+            <span class="case-card__industry">Energía · Chile</span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Indicadores de calidad de servicio fuera del estándar regulatorio.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              100% de comunas dentro del estándar de la industria.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso →</a>
+        </div>
+      </article>
+
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">3</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">SQM</span>
+            <span class="case-card__industry">Minería · Chile</span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Baja productividad y desempeño en gestión de proyectos.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              Sistema estructurado de seguimiento y evaluación de desempeño
+              implementado.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso →</a>
+        </div>
+      </article>
+
+      <article class="case-card">
+        <span class="case-card__number" aria-hidden="true">2</span>
+
+        <div class="case-card__content">
+          <div class="case-card__header">
+            <span class="case-card__client">BID / CORFO</span>
+            <span class="case-card__industry">Sector financiero no bancario · Chile</span>
+          </div>
+
+          <hr class="case-card__divider" />
+
+          <div class="case-card__block">
+            <span class="case-card__label">Desafío</span>
+            <p>
+              Cooperativas sin estructura para operar como instituciones
+              financieras formales.
+            </p>
+          </div>
+
+          <div class="case-card__block">
+            <span class="case-card__label">Resultado</span>
+            <p class="case-card__result">
+              Bases técnicas e institucionales para transformación en IFNB.
+              Programa ejecutado en 3 cooperativas durante 2 años.
+            </p>
+          </div>
+
+          <a href="#contacto" class="case-card__link">Ver caso →</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="cases__cta">
+      <a href="#contacto">Ver casos completos →</a>
+    </div>
+  </div>
+</section>
