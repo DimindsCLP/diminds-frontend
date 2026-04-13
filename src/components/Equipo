@@ -1,1 +1,153 @@
+// src/components/Equipo.astro
 
+<section class="team" id="nosotros">
+  <div class="team__inner">
+    <div class="team__header">
+      <h2>Experiencia ejecutiva directa.</h2>
+      <p class="team__intro">
+        El cliente trabaja con los socios en cada proyecto. No con equipos
+        delegados.
+      </p>
+    </div>
+
+    <div class="team__grid">
+      <article class="team-card">
+        <div class="team-card__photo">
+          <!-- PLACEHOLDER ACTIVO HOY -->
+          <!-- Eliminar cuando llegue la foto -->
+          <div class="team-card__placeholder" aria-label="Foto de Nelda Córdova">
+            <span>NC</span>
+          </div>
+
+          <!--
+          ACTIVAR cuando llegue foto-nelda-cordova.webp:
+          Eliminar el div placeholder de arriba
+          y descomentar esto:
+
+          <img
+            src="/images/team/foto-nelda-cordova.webp"
+            alt="Nelda Córdova, Directora y Socia Fundadora de Diminds Consulting"
+            width="600"
+            height="800"
+            loading="lazy"
+          />
+          -->
+        </div>
+
+        <div class="team-card__info">
+          <h3 class="team-card__name">Nelda Córdova</h3>
+          <p class="team-card__role">Directora y Socia Fundadora</p>
+          <p class="team-card__specialty">
+            Liderazgo estratégico y desarrollo organizacional.
+          </p>
+          <p class="team-card__bio">
+            Más de 20 años liderando equipos y procesos estratégicos. Ex-Gerente
+            General en empresas cooperativas. Consultora BID-CORFO.
+          </p>
+          <p class="team-card__credentials">
+            MBA · Magíster Habilidades Directivas · Master Finanzas · Auditora
+            CMF · Coach ICF
+          </p>
+
+          <a
+            href="https://linkedin.com/in/nelda-cordova-lazo-/"
+            class="team-card__linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn de Nelda Córdova"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            Ver perfil
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card">
+        <div class="team-card__photo">
+          <!-- PLACEHOLDER ACTIVO HOY -->
+          <!-- Eliminar cuando llegue la foto -->
+          <div class="team-card__placeholder" aria-label="Foto de Carlos Gutiérrez">
+            <span>CG</span>
+          </div>
+
+          <!--
+          ACTIVAR cuando llegue foto-carlos-gutierrez.webp:
+          Eliminar el div placeholder de arriba
+          y descomentar esto:
+
+          <img
+            src="/images/team/foto-carlos-gutierrez.webp"
+            alt="Carlos Gutiérrez, Socio Director de Diminds Consulting"
+            width="600"
+            height="800"
+            loading="lazy"
+          />
+          -->
+        </div>
+
+        <div class="team-card__info">
+          <h3 class="team-card__name">Carlos Gutiérrez</h3>
+          <p class="team-card__role">Socio Director</p>
+          <p class="team-card__specialty">
+            Estrategia financiera y transformación institucional.
+          </p>
+          <p class="team-card__bio">
+            Más de 20 años en marketing, negocios y estrategia comercial en
+            banca, cooperativas y retail financiero. Consultor BID-CORFO.
+          </p>
+          <p class="team-card__credentials">Ingeniero Comercial · MBA</p>
+
+          <a
+            href="https://linkedin.com/in/carlos-gutierrez-gonzalez-1126407/"
+            class="team-card__linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn de Carlos Gutiérrez"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            Ver perfil
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <div class="team__partners">
+      <p>
+        Contamos además con una red de especialistas senior en liderazgo
+        ejecutivo, psicología organizacional, finanzas corporativas y gestión
+        de riesgos.
+      </p>
+      <a href="#contacto">Conocer el equipo completo →</a>
+    </div>
+  </div>
+</section>
