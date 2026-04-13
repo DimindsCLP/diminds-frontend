@@ -1,172 +1,65 @@
----
----
+<section class="contact-section" id="contacto">
+  <div class="contact-section__inner">
+    <h2>
+      Si enfrenta una decisión compleja,
+      estamos disponibles para conversar.
+    </h2>
 
-<section id="contacto" class="contacto">
+    <p class="contact-section__text">
+      Sin propuesta automática. Sin compromiso.
+      Solo una conversación para entender si podemos
+      aportar valor real a su situación.
+    </p>
 
-  <div class="container">
-
-    <div class="contacto-box">
-
-      <div class="contacto-texto">
-
-        <span class="eyebrow">
-          Contacto
-        </span>
-
-        <h2>
-          Conversemos sobre su organización.
-        </h2>
-
-        <p>
-          Si su organización enfrenta decisiones complejas,
-          podemos ayudarle a estructurar escenarios claros
-          y reducir la incertidumbre en el proceso.
-        </p>
-
-      </div>
-
-      <div class="contacto-acciones">
-
-        <a href="mailto:contacto@diminds.cl" class="btn-primario">
-          Contactar por correo
-        </a>
-
-        <a href="#metodologia" class="btn-secundario">
-          Conocer nuestra metodología
-        </a>
-
-      </div>
-
+    <div class="contact-section__actions">
+      <a href="#contacto-form" class="contact-section__cta">
+        Iniciar conversación →
+      </a>
     </div>
 
+    <div id="contacto-form" class="contact-form-wrapper">
+      <iframe
+        data-tally-src="https://tally.so/embed/ja7gAR?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        loading="lazy"
+        width="100%"
+        height="763"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Formulario de contacto Diminds">
+      </iframe>
+
+      <script is:inline>
+        var d=document,
+        w="https://tally.so/widgets/embed.js",
+        v=function(){
+          "undefined"!=typeof Tally
+          ? Tally.loadEmbeds()
+          : d.querySelectorAll(
+              "iframe[data-tally-src]:not([src])"
+            ).forEach(function(e){
+              e.src=e.dataset.tallySrc
+            })
+        };
+        if("undefined"!=typeof Tally) v();
+        else if(d.querySelector('script[src="'+w+'"]')==null){
+          var s=d.createElement("script");
+          s.src=w;
+          s.onload=v;
+          s.onerror=v;
+          d.body.appendChild(s);
+        }
+      </script>
+    </div>
+
+    <div class="contact-section__direct">
+      <a href="mailto:contacto@diminds.cl">contacto@diminds.cl</a>
+      <span>·</span>
+      <a href="tel:+56993429951">+56 9 9342 9951</a>
+    </div>
+
+    <p class="contact-section__confidentiality">
+      Toda la información compartida se maneja con estricta confidencialidad.
+    </p>
   </div>
-
 </section>
-
-<style>
-
-.contacto {
-  padding: 120px 24px 140px;
-  background: linear-gradient(
-    135deg,
-    #2563eb,
-    #7c3aed
-  );
-  color: white;
-}
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.contacto-box {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 56px;
-  align-items: center;
-}
-
-.contacto-texto h2 {
-  margin: 0 0 16px;
-  font-size: 52px;
-  line-height: 1.1;
-}
-
-.contacto-texto p {
-  font-size: 18px;
-  line-height: 1.6;
-  opacity: 0.95;
-  max-width: 520px;
-}
-
-.contacto-acciones {
-
-  display: flex;
-  flex-direction: column;
-
-  gap: 18px;
-
-  align-items: flex-start;
-
-  padding-right: 24px;
-
-}
-
-.btn-primario {
-
-  background: #ffffff;
-
-  color: #0f172a;
-
-  padding: 18px 36px;
-
-  border-radius: 12px;
-
-  text-decoration: none;
-
-  font-weight: 700;
-
-  font-size: 16px;
-
-  text-align: center;
-
-  box-shadow: 
-    0 12px 26px rgba(0,0,0,0.22);
-
-  transition: all 0.2s ease;
-
-}
-
-.btn-primario:hover {
-
-  transform: translateY(-2px);
-
-  box-shadow: 
-    0 16px 34px rgba(0,0,0,0.28);
-
-}
-.btn-secundario {
-  border: 2px solid white;
-  color: white;
-  padding: 18px 36px;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: center;
-  transition: all 0.2s ease;
-}
-
-.btn-secundario:hover {
-  background: rgba(255, 255, 255, 0.08);
-  transform: translateY(-2px);
-}
-
-.eyebrow {
-  display: inline-block;
-  margin-bottom: 12px;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-@media (max-width: 900px) {
-
-  .contacto {
-    padding: 88px 24px;
-  }
-
-  .contacto-box {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-
-  .contacto-texto h2 {
-    font-size: 40px;
-  }
-
-}
-
-</style>
