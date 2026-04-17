@@ -227,7 +227,7 @@ El sistema debe respetar esa separación.
 
 # 8. Integración con formularios
 
-### 8.1 Implementación en fase MVP
+## 8.1 Implementación en fase MVP
 
 El MVP actual utiliza Tally.so como
 solución transitoria para la captura
