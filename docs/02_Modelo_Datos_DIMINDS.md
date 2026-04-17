@@ -1,7 +1,7 @@
 # 02_Modelo_Datos_DIMINDS
 
-**Versión:** v1.0.0  
-**Estado:** Inicial  
+Versión: v1.1.0
+Estado: Activo
 **Fecha:** 2026-04-17  
 **Proyecto:** DIMINDS  
 
@@ -324,9 +324,46 @@ Este modelo depende de:
 
 ---
 
-# 10. Historial de versiones
+## 10. Estado de implementación
+
+### 10.1 Fase MVP
+
+El MVP opera sin backend propio.
+La captura se realiza mediante Tally.so.
+Las entidades de este modelo no están
+implementadas en base de datos aún.
+Los datos capturados llegan por correo
+a contacto@diminds.cl.
+
+### 10.2 Pendiente — Fase 2
+
+Implementar backend con:
+· Base de datos relacional
+· Entidades según este modelo
+· API controlada
+· Registro de consentimiento
+· Auditoría de eventos
+
+### 10.3 Orden de implementación sugerido
+
+1. Usuario
+2. Consentimiento
+3. Prospecto
+4. Caso
+5. Documento
+6. Evento_Auditoria
+
+Referencia: DECISION_LOG D-004
+
+---
+# 11. Historial de versiones
 
 ## v1.0.0
 
 Definición inicial del modelo lógico
 de datos base del sistema DIMINDS.
+
+### v1.1.0
+
+- Agrega sección 10 con estado de
+  implementación MVP y pendientes Fase 2
