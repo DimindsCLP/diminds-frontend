@@ -1,7 +1,7 @@
 # 01_Modelo_Consentimiento_DIMINDS
 
-**Versión:** v1.0.0  
-**Estado:** Aprobado inicial  
+Versión: v1.1.0
+Estado: Activo
 **Fecha:** 2026-04-17  
 **Proyecto:** DIMINDS  
 
@@ -227,6 +227,27 @@ El sistema debe respetar esa separación.
 
 # 8. Integración con formularios
 
+### 8.1 Implementación en fase MVP
+
+El MVP actual utiliza Tally.so como
+solución transitoria para la captura
+de formularios de contacto.
+
+Tally.so no implementa el modelo de
+consentimiento granular definido en
+este documento.
+
+Esta brecha es reconocida y aceptada
+para la fase inicial del proyecto.
+
+Pendiente en Fase 2:
+Implementar formulario propio con backend
+controlado que registre consentimiento
+según las especificaciones de este documento.
+
+Referencia: DECISION_LOG D-004
+
+
 Todo formulario debe:
 
 - mostrar consentimiento asociado
@@ -292,3 +313,8 @@ Esto permitirá integraciones financieras futuras.
 
 - Definición inicial del modelo de consentimiento DIMINDS
 - Incluye principios, tipos, eventos y estructura base
+
+### v1.1.0
+
+- Agrega sección 8.1 sobre implementación
+  transitoria con Tally.so en fase MVP
