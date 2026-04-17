@@ -1,6 +1,6 @@
 # 00_Gobernanza_DIMINDS
 
-**Versión:** v1.0.0  
+**Versión:** v1.1.0  
 **Estado:** Aprobado inicial  
 **Fecha:** 2026-04-17  
 **Proyecto:** DIMINDS  
@@ -222,9 +222,11 @@ DIMINDS debe mantener al menos los siguientes documentos estructurales:
 
 ---
 
-## 9. Historial de versiones
+# Historial de versiones
 
-### v1.0.0
+## v1.0.0
+Versión inicial del documento.
 
-- Versión inicial del marco de gobernanza de DIMINDS
-- Define propósito, principios, reglas de decisión y capas lógicas base
+## v1.1.0
+- Normalización de formato.
+- Alineación con arquitectura web actual.
