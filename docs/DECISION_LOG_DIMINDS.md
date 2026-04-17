@@ -1,6 +1,6 @@
 # DECISION_LOG_DIMINDS
 
-**Versión:** v1.0.0  
+**Versión:** v1.1.0  
 **Estado:** Activo  
 **Fecha inicial:** 2026-04-17  
 **Proyecto:** DIMINDS  
@@ -108,6 +108,8 @@ Garantizar cumplimiento normativo y trazabilidad
 del uso de datos personales y financieros.
 
 **Impacto:**  
+
+
 
 Documentos afectados:
 
@@ -474,3 +476,13 @@ D-001
 D-002
 D-003
 D-004
+
+
+Historial de  versiones 
+
+### v1.1.0
+
+- Agrega D-003 a D-012
+- Cubre stack técnico · paleta · tipografía
+  · Home v2.2 · fotografía · assets
+  · navegación · modelo de servicios
