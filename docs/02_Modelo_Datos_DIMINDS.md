@@ -79,7 +79,7 @@ la base del sistema.
 
 ---
 
-# 3.1 Usuario
+## 3.1 Usuario
 
 Representa a una persona registrada
 o capturada en el sistema.
@@ -102,7 +102,7 @@ Requiere consentimiento.
 
 ---
 
-# 3.2 Consentimiento
+## 3.2 Consentimiento
 
 Representa autorización explícita
 para uso de datos.
@@ -125,7 +125,7 @@ Entidad obligatoria.
 
 ---
 
-# 3.3 Prospecto
+## 3.3 Prospecto
 
 Representa un contacto potencial.
 
@@ -143,7 +143,7 @@ Dato comercial.
 
 ---
 
-# 3.4 Caso
+## 3.4 Caso
 
 Representa una interacción formal
 con el usuario.
@@ -171,7 +171,7 @@ Puede contener información sensible.
 
 ---
 
-# 3.5 Documento
+## 3.5 Documento
 
 Representa documentos asociados
 a un caso.
@@ -196,7 +196,7 @@ Dato potencialmente sensible.
 
 ---
 
-# 3.6 Evento_Auditoria
+## 3.6 Evento_Auditoria
 
 Registra eventos críticos.
 
@@ -324,9 +324,9 @@ Este modelo depende de:
 
 ---
 
-## 10. Estado de implementación
+# 10. Estado de implementación
 
-### 10.1 Fase MVP
+## 10.1 Fase MVP
 
 El MVP opera sin backend propio.
 La captura se realiza mediante Tally.so.
@@ -335,7 +335,7 @@ implementadas en base de datos aún.
 Los datos capturados llegan por correo
 a contacto@diminds.cl.
 
-### 10.2 Pendiente — Fase 2
+## 10.2 Pendiente — Fase 2
 
 Implementar backend con:
 · Base de datos relacional
@@ -344,7 +344,7 @@ Implementar backend con:
 · Registro de consentimiento
 · Auditoría de eventos
 
-### 10.3 Orden de implementación sugerido
+## 10.3 Orden de implementación sugerido
 
 1. Usuario
 2. Consentimiento
@@ -363,7 +363,7 @@ Referencia: DECISION_LOG D-004
 Definición inicial del modelo lógico
 de datos base del sistema DIMINDS.
 
-### v1.1.0
+## v1.1.0
 
 - Agrega sección 10 con estado de
   implementación MVP y pendientes Fase 2
