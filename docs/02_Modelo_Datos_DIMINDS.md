@@ -141,7 +141,7 @@ Clasificación:
 
 Dato comercial.
 
----
+
 
 ## 3.4 Caso
 
