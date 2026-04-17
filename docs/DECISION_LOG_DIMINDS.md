@@ -1,6 +1,6 @@
 # DECISION_LOG_DIMINDS
 
-**Versión:** v1.1.0  
+**Versión:** v1.2.0  
 **Estado:** Activo  
 **Fecha inicial:** 2026-04-17  
 **Proyecto:** DIMINDS  
@@ -404,7 +404,8 @@ D-014 — Estructura de liderazgo
 ────────────────────────────────────────
 
 Fecha: 2026-04  
-Estado: VIGENTE  
+Estado: Obsoleta
+Motivo: Fuera del alcance del proyecto web institucional.
 
 Decisión:
 
@@ -420,8 +421,8 @@ D-015 — Estrategia de crecimiento
 ────────────────────────────────────────
 
 Fecha: 2026-04  
-Estado: VIGENTE  
-
+Estado: Obsoleta
+Motivo: Fuera del alcance del proyecto web institucional.
 Decisión:
 
 Se adopta estrategia en:
@@ -442,7 +443,8 @@ D-016 — Separación estructural de ecosistemas
 ────────────────────────────────────────
 
 Fecha: 2026-04  
-Estado: VIGENTE  
+Estado: Obsoleta
+Motivo: Fuera del alcance del proyecto web institucional. 
 
 Decisión:
 
@@ -478,11 +480,24 @@ D-003
 D-004
 
 
-Historial de  versiones 
+---
 
-### v1.1.0
+# 5. Historial de versiones
 
-- Agrega D-003 a D-012
+## v1.0.0
+- Versión inicial del log.
+- Registra decisiones D-001 y D-002.
+
+## v1.1.0
+- Agrega D-003 a D-012.
 - Cubre stack técnico · paleta · tipografía
-  · Home v2.2 · fotografía · assets
-  · navegación · modelo de servicios
+  · HOME v2.2 · fotografía · assets
+  · navegación · modelo de servicios.
+
+## v1.2.0
+- Reformatea D-003 a D-013 con formato
+  estándar consistente.
+- Agrega D-013 catálogo de servicios.
+- Mantiene D-014 · D-015 · D-016 como
+  Obsoletas (no eliminadas).
+- Agrega sección 5 de historial.
